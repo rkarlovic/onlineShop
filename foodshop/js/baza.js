@@ -13,7 +13,7 @@ $(document).ready(function() {
     $.getJSON({
         url: "http://ec2-52-28-87-138.eu-central-1.compute.amazonaws.com/rest/public/api/meals"
     }).then(function(meal) {
-       console.log(meal);
-       console.log(meal[0].meal_name);
+       console.log(meal); //todo: cleanup required
+       console.log(meal[0].meal_name); 
     });
 });
