@@ -241,7 +241,7 @@ shoppingCart.increaseItemNumber = function(name) {
 
 
 shoppingCart.clearCart = function() {
-  shoppingCart.cart = []; //treba postojati i bolji nacin za prznjenje
+  shoppingCart.cart = []; //find better way to clear this
   shoppingCart.saveCart();
 }
 
