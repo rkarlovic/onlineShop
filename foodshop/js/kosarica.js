@@ -348,6 +348,12 @@ function displayCart() {
 };
 // Prikaz itema
 
+//Hactoberfest funkcija
+function zaObrisati() {
+  for(var i=0;i<3;i++){
+    console.log("obriši me nakon hacktoberfesta");
+  }
+};
 
 
 $("#show-cart").on("click", ".delete-item", function (event) {
