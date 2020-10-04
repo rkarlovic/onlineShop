@@ -17,3 +17,11 @@ $(function() {
 $('#myForm').one('submit', function() {
     $(this).find('input[type="submit"]').attr('disabled','disabled');
 });
+
+
+//Hactoberfest funkcija
+function zaObrisati() {
+  for(var i=0;i<3;i++){
+    console.log("obriši me nakon hacktoberfesta");
+  }
+};
