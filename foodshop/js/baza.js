@@ -17,11 +17,4 @@ $(document).ready(function() {
        console.log(meal[0].meal_name); 
     });
     
-    //Hactoberfest funkcija
-    function zaObrisati() {
-        for(var i=0;i<3;i++){
-        console.log("obriši me nakon hacktoberfesta");
-        }
-    };
-    
 });
