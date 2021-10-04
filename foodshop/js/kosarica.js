@@ -102,6 +102,12 @@ function sendOrder(){
     kolicinaPolje[i] = shoppingCart.cart[i].count;
     idPolje[i] = shoppingCart.cart[i].id;
   }
+ 
+   //Hacktoberfest
+  var text;
+  for (let i = 0; i < 5; i++) {
+  text += "The number is " + i + "<br>";
+}
 
 
   // var kolicina = {};
