@@ -12,6 +12,13 @@ $(function() {
     });
 });
 
+// Hacktoberfest
+
+var userCountMax = 10;
+var userCurrent= 0;
+for(let i=0;i<userCountMax;i++){
+    userCurrent=i;
+}
 
 // disable poslje prvog dodavanja
 $('#myForm').one('submit', function() {
@@ -19,9 +26,3 @@ $('#myForm').one('submit', function() {
 });
 
 
-//Hactoberfest funkcija
-function zaObrisati() {
-  for(var i=0;i<3;i++){
-    console.log("obriši me nakon hacktoberfesta");
-  }
-};
