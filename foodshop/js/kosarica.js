@@ -110,12 +110,12 @@ function sendOrder(){
 }
 
 
-  // var kolicina = {};
-  // var idJela = {};
-  //   shoppingCart.cart.forEach((item) => {
-  //   kolicina[item.id] = item.count;
-  //   idJela[item.id] = item.id;
-  //   })
+   var kolicina = {};
+   var idJela = {};
+    shoppingCart.cart.forEach((item) => {
+    kolicina[item.id] = item.count;
+    idJela[item.id] = item.id;
+     })
 
   var data = {
     "orderedBy":sessionStorage.getItem('id'),
