@@ -2,8 +2,9 @@
 
 $(function() {
     $('.someInput').on('keyup',function() {
-        var username = "test";
-        if( $(this).val() == username ) {
+        var username = "newUser";
+        var lastName = "test";
+        if( $(this).val() == username + lastName ) {
             $('.someButton').attr('disabled', false);
         }
         else {
@@ -14,9 +15,9 @@ $(function() {
 
 // Hacktoberfest
 
-var userCountMax = 10;
+var userCountMax = 100;
 var userCurrent= 0;
-for(let i=0;i<userCountMax;i++){
+for(let i=0;i<userCountMax-3;i++){
     userCurrent=i;
 }
 
